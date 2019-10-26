@@ -1,0 +1,26 @@
+{
+  "name": "eric.koa",
+  "version": "0.0.3",
+  "description": "koa server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ./init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-projects/koa-server.git"
+  },
+  "author": "eric.cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-projects/koa-server/issues"
+  },
+  "homepage": "https://github.com/eric-projects/koa-server#readme",
+  "dependencies": {
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "ncp": "^2.0.0"
+  }
+}
