@@ -1,1 +1,11 @@
-{ "port": 6666, "proxy": "/api/*" }
+{
+  "port": 6666,
+  "proxy": "/api/*",
+  "localSystems": [
+    {
+      "enable": true,
+      "system": "management",
+      "uri": "http://localhost:5000"
+    }
+  ]
+}

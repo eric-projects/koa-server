@@ -1,0 +1,32 @@
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# compiled output
+dist/
+tmp/
+out-tsc/
+public/
+client/src/app/routes.ts
+client/src/app/shared/api-store/index.ts
+
+# dependencies
+node_modules/
+
+# misc
+.DS_Store
+Thumbs.db
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+yarn.lock
+package-lock.json
+*.orig
+*~
