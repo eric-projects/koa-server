@@ -19,9 +19,7 @@
   "homepage": "https://github.com/eric-projects/koa-server#readme",
   "dependencies": {
     "koa": "^2.10.0",
-    "koa-better-http-proxy": "^0.2.4",
     "koa-router": "^7.4.0",
-    "koa-static": "^5.0.0",
     "ncp": "^2.0.0"
   }
 }

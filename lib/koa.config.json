@@ -1,9 +1,12 @@
 {
   "port": 6666,
-  "proxy": "/api/*",
+  "proxy": [
+    { "path": "/test", "file": "index1.html" },
+    { "path": "/", "file": "index.html" }
+  ],
   "localSystems": [
     {
-      "enable": true,
+      "enable": false,
       "system": "management",
       "uri": "http://localhost:5000"
     }
